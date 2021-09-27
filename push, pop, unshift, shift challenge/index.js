@@ -8,10 +8,9 @@ let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
 // Google how to use unshift() and shift()
 
 largeCountries.pop();
-largeCountries.shift();
-
-largeCountries.unshift("China");
 largeCountries.push("Pakistan");
 
+largeCountries.shift();
+largeCountries.unshift("China");
 
 console.log(largeCountries);
